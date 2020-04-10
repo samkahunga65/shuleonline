@@ -4,12 +4,15 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+autopep8 = "*"
 
 [packages]
 django = "*"
 django-rest-knox = "*"
 djangorestframework = "*"
 wadofstuff = "*"
+django-phonenumber-field = {extras = ["phonenumberslite"],version = "*"}
+whitenoise = "*"
 
 [requires]
 python_version = "3.7"

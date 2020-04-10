@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "dev": "webpack --mode development ./shuleonline/frontend/src/index.js --output ./shuleonline/frontend/static/frontend/main.js",
+    "dev": "webpack --mode development --watch ./shuleonline/frontend/src/index.js --output ./shuleonline/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./shuleonline/frontend/src/index.js --output ./shuleonline/frontend/static/frontend/main.js"
   },
   "repository": {
@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "node-sass": "^4.13.1",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-alert": "^4.0.4",
