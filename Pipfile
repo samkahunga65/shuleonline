@@ -9,6 +9,7 @@ autopep8 = "*"
 [packages]
 django = "*"
 django-rest-knox = "*"
+django-cors-headers = "*"
 djangorestframework = "*"
 django-phonenumber-field = {extras = ["phonenumberslite"],version = "*"}
 whitenoise = "*"
