@@ -10,7 +10,6 @@ autopep8 = "*"
 django = "*"
 django-rest-knox = "*"
 djangorestframework = "*"
-wadofstuff = "*"
 django-phonenumber-field = {extras = ["phonenumberslite"],version = "*"}
 whitenoise = "*"
 
