@@ -25,8 +25,8 @@ SECRET_KEY = '74qvu3n%)g@y#m(8m*9qrs2vehvq@g3l-92t8%2_#8_ektpsgo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["0.0.0.0", "localhost",
-                 "https://secret-anchorage-76865.herokuapp.com"]
+ALLOWED_HOSTS = ["127.0.0.1",
+                 'secret-anchorage-76865.herokuapp.com']
 
 
 # Application definition
@@ -67,7 +67,7 @@ ROOT_URLCONF = 'shuleonline.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'static')],
+        'DIRS': [os.path.join(BASE_DIR, 'build')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -136,6 +136,6 @@ CORS_ORIGIN_ALLOW_ALL = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static', 'build', "static"),
+    os.path.join(BASE_DIR, 'build'),
 )
 AUTH_USER_MODEL = 'accounts.User'
