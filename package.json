@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-alert": "^4.0.4",
